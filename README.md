@@ -3,7 +3,7 @@ This full-stack application scrapes forex conversion rates daily, stores the dat
 
 ## Features
 ### 1. Data Scraping
-Scrapes forex rates daily at 9 AM from oanda.com.
+Scrapes forex rates daily at 9 AM from oanda.com (fxds-public-exchange-rates-api)
 Supports the scraping of additional currency pairs via API.
 ### 2. Data Storage
 Stores historical forex data in an H2 database.
@@ -18,7 +18,7 @@ Start Tracking a Currency Pair: Enable tracking for a specific currency pair.
 Get Tracked Currency Pairs: Retrieve all currency pairs being tracked by the system.
 Get Last 90 Days of Data: Retrieve historical data for the past 90 days for a selected currency pair.
 ### 4. Error Handling and Logging
-Implements robust error handling mechanisms to capture and log important events and exceptions.
+Implements robust error-handling mechanisms to capture and log important events and exceptions.
 ### 5. Performance
 API response times are optimized to remain under 100ms, ensuring fast and efficient data delivery.
 Tech Stack
@@ -43,6 +43,7 @@ Modify the application.yaml file to configure your SQL database credentials.
 ### Build and run the application:
 ./mvnw spring-boot:run
 The backend will be available on http://localhost:8080.
+Swagger URL: http://localhost:8080/swagger-ui/index.html
 
 ### Frontend (React)
 Navigate to the frontend directory:
