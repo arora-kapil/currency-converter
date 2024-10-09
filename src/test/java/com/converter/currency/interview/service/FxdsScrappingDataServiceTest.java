@@ -1,8 +1,8 @@
 package com.converter.currency.interview.service;
 
-import com.converter.currency.service.FxdsScrappingDataService;
-import com.converter.currency.dto.FxdsResponseDto;
 import com.converter.currency.dto.FxdsCurrencyDataDto;
+import com.converter.currency.dto.FxdsResponseDto;
+import com.converter.currency.service.FxdsScrappingDataService;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.mockito.Mockito;
