@@ -18,5 +18,4 @@ public class FxdsResponseDto {
     public List<FxdsCurrencyDataDto> getResponse() {
         return null == response ? Collections.emptyList() : response;
     }
-
 }

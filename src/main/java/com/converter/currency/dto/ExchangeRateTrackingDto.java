@@ -15,8 +15,6 @@ import java.time.LocalDate;
 public class ExchangeRateTrackingDto {
     private String baseCurrencyCode;
     private String quoteCurrencyCode;
-
     private BigDecimal exchangeRate;
-
     private LocalDate rateDate;
 }

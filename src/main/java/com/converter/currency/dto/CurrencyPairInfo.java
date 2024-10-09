@@ -7,6 +7,5 @@ import lombok.Data;
 @Data
 public class CurrencyPairInfo {
     String baseCurrencyCode;
-
     String quoteCurrencyCode;
 }

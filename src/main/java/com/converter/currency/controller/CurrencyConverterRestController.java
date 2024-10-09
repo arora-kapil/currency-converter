@@ -63,7 +63,6 @@ public class CurrencyConverterRestController {
                                                           @RequestParam("quote") String quote) {
         log.info("Adding currency pair {}-{}", base, quote);
         ApiResponseDto response = currencyConverterScrappingService.addCurrencyPair(base, quote);
-
         return new ResponseEntity<>(response, HttpStatus.valueOf(response.getStatusCode()));
     }
 

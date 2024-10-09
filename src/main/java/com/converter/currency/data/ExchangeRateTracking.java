@@ -32,5 +32,4 @@ public class ExchangeRateTracking {
 
     @Column(nullable = false, name = "rate_date")
     private LocalDate rateDate;
-
 }
