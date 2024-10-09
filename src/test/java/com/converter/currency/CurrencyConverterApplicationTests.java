@@ -1,4 +1,4 @@
-package com.kapil.currency_converter;
+package com.converter.currency;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
