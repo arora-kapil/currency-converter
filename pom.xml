@@ -13,6 +13,7 @@
 	<version>0.0.1-SNAPSHOT</version>
 	<name>currency-converter</name>
 	<description>Currency Converter Application</description>
+	<packaging>jar</packaging>
 	<url/>
 	<licenses>
 		<license/>
