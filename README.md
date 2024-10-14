@@ -1,6 +1,8 @@
 # Full Stack Currency Converter Application
 This full-stack application scrapes forex conversion rates daily, stores the data, and provides a REST API to retrieve various forex data. It is built using Spring Boot (Java) for the backend, React for the frontend, and is hosted using AWS services (S3 and EC2).
 
+* Link to the frontend repository: https://github.com/arora-kapil/currency-converter-frontend
+
 ## Features
 ### 1. Data Scraping
 Scrapes forex rates daily at 9 AM from oanda.com (fxds-public-exchange-rates-api)
